@@ -1,0 +1,75 @@
+/* CSS Reset */
+
+body{
+    margin: 0;
+    background-color: #0d917f;
+}
+
+
+.heading{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.topnav{
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+}
+
+.topnav a.active{
+    background-color: #04352e;
+}
+
+.picture{
+    position: relative;
+    left: 500px;
+    }
+
+.mine{font-size: 30px;}
+
+p{font-size: 20px;}
+
+.myskill{
+    text-align: center;
+}
+
+.skill{width: 40%;
+    background-color: #1be9cd;
+    font-size: 20px;
+    }
+.skilladmin, .skilllead, .skillmic{width:70%;
+    background-color: black;
+    color: #f2f2f2;}
+.skillmat{width:80%;
+    background-color: black;
+    color: #f2f2f2;}
+.skillpet{width:85%;
+    background-color: black;
+    color: #f2f2f2;}
+.skillasp{width:60%;
+    background-color: black;
+    color: #f2f2f2;}
+.skillman{width:50%;
+    background-color: black;
+    color: #f2f2f2;}
+
+.ul{
+    font-size: 22px;
+}
+
+.container{
+    max-width: 300px;
+    width: 70%;
+    height: 100px;
+    font-size: 20px;
+    background-color: white;
+    padding: 30px 30px;
+    border-radius: 15px;}
